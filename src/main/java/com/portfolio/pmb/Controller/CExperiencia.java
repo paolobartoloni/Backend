@@ -119,7 +119,7 @@ public class CExperiencia {
 
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://pmbportfolio.web.app"})
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;

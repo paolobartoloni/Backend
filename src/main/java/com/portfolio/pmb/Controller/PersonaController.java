@@ -71,7 +71,7 @@ public class PersonaController {
 */
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://pmbportfolio.web.app")
 public class PersonaController {
     
     @Autowired
