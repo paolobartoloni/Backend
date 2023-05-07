@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/sobremi")
-@CrossOrigin(origins = {"https://pmbportfolio.web.app","https://localhost:4200"})
+@CrossOrigin(origins = {"https://portfoliopmb2.web.app","http://localhost:4200"})
 public class CSobremi {
     @Autowired
     SSobremi sSobremi;
